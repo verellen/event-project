@@ -1,0 +1,306 @@
+body {
+    font-family: "Open Sans";
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #17191C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1141px;
+}
+
+
+.header {
+    height: 52px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 27px;
+    left: 420px;
+}
+
+.menu:last-child {
+    margin-right:0;
+}
+
+.menu__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+.menu__link{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.contacts {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone{
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.contacts__schedule {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.contacts__info {
+    font-size: 11px;
+    color: #9A9A9A;
+}
+
+.hero__text-section {
+    width: 645px;
+}
+
+.hero__title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 14px;
+}
+
+.hero__subtitle {
+    font-size: 21px;
+    margin-bottom: 90px;
+}
+
+.btn {
+    background: #8F00FF;
+    border-radius: 5px;
+    padding: 18px 40px;
+    color:#FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.hero{
+    margin-bottom: 205px;
+}
+
+.events__title__caption, events__logo {
+    display: inline-block;
+}
+
+.events__title__caption {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 51px;
+}
+
+.card {
+    display: inline-block;
+    width: 362px;;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.card__background {
+    min-height: 144px;
+    margin-bottom: 28px;
+}
+
+
+.card__header {
+    padding: 26px 22px;
+    color: #000000;
+}
+
+.card__name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 33px;
+}
+
+.card__info {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    color: #666666;
+    width: 72px;
+}
+
+.card__info:last-child{
+    margin-right: 0;
+}
+
+
+.card__main{
+    font-size: 14px;
+    color: #303030;
+}
+
+.card__btn-wrapper{
+    text-align: center;
+}
+
+
+.past__title {
+    font-size: 36px;
+    font-style: bold;
+    margin-bottom: 46px;
+}
+
+.past__events {
+    display: inline-block;
+    vertical-align: top;
+    position: relative
+    overflow: hidden;
+    }
+
+.past__container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.paginator {
+    text-align: center;
+}
+ .paginator__text,.paginator__list {
+     display: inline-block;
+     vertical-align: middle;
+     margin-bottom: 132px;
+ }
+
+.paginator__text {
+    margin-right: 25px;
+}
+
+ .paginator__item {
+     display: inline-block;
+     vertical-align: middle;
+     border-radius: 50%;
+ }
+
+ .paginator__item--active {
+     background: #8F00FF;;
+ }
+
+ .paginator__link{
+     display: block;
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     text-decoration: none;
+     font-weight: bold;
+     line-height: 32px;
+ }
+
+ .about:before {
+     content: "";
+     display: inline-block;
+     vertical-align: top;
+     width: 488px;
+     height: 502px;
+     background:  url("./img/about.jpg") center center / cover no-repeat;
+ }
+
+ .about__structure {
+    display: inline-block;
+    vertical-align: top;
+     background: linear-gradient(#8F00FF,#148CFF);
+     padding: 70px 81px;
+     width: 785px;
+     height: 455px;
+     margin-left: -137px;
+     margin-top: 108px;
+     margin-bottom: 50px;
+ }
+
+ .about__header {
+     font-size: 36px;
+     font-style: bold;
+     margin-bottom: 37px;
+ }
+
+ .about__detail {
+    font-size: 16px;
+    margin-bottom: 61px;
+ }
+
+.bottom__content {
+    border-top: 4px solid #FFFFFF;
+}
+
+ .footer {
+     height: 146px;
+     position: relative;
+}
+
+
+.feedback__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.feedback{
+    top: 30px;
+    right: 200px;
+    position: absolute;
+}
+
+.feedback__item:last-child {
+    margin-right: 0;
+}
+
+ .feedback__link{
+     display: block;
+     text-decoration: none;
+     width: 36px;
+     height: 36px;
+     background: center center no-repeat;
+ }
+
+
