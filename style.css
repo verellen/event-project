@@ -1,0 +1,403 @@
+body {
+    font-family: "Open Sans";
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #17191C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper{
+    z-index: 2;
+}
+
+.background-image-one {
+    position: absolute;
+    z-index: -1;
+    background-size: 100%;
+    width: 100%;
+    min-height: 999px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(./img/back-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+    opacity: 30%;
+    box-shadow: inset 0px -46px 50px #17191C;
+
+}
+
+.background-image-two {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    background-size: 100%;
+    min-height: 1018px;
+    left: 0px;
+    top: 1950px;
+
+
+    background: url("/img/back-2.jpg") center bottom no-repeat;
+    background-size: cover;
+    mix-blend-mode: luminosity;  
+    opacity: 10%;
+    box-shadow: inset 0px -110px 80px #17191C;
+}
+
+
+a {
+    color: inherit;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1141px;
+}
+
+
+.header {
+    position: relative;
+    min-height: 52px;
+    margin-bottom: 150px;
+}
+
+.logo {
+    display: block;
+    top: 34px;
+    left: 0;
+}
+
+.menu {
+    display: inline-block;
+    top: 27px;
+    left: 430px;
+}
+
+.menu:last-child {
+    margin-right:0;
+}
+
+.menu__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+.menu__link{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.contacts {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone{
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.contacts__schedule {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.contacts__info {
+    font-size: 11px;
+    color: #9A9A9A;
+}
+
+.hero__text-section {
+    width: 645px;
+}
+
+.hero__title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 14px;
+}
+
+.hero__subtitle {
+    font-size: 21px;
+    margin-bottom: 90px;
+}
+
+.btn {
+    background: #8F00FF;
+    border-radius: 5px;
+    padding: 18px 40px;
+    color:#FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.hero{
+    margin-bottom: 205px;
+}
+
+.events__title__caption, events__logo {
+    display: inline-block;
+}
+
+.events__title__caption {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 51px;
+}
+
+.card {
+    display: inline-block;
+    width: 362px;;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 15px;
+    min-height: 450px;
+    margin-bottom: 127px;
+}
+
+.card__header {
+    height: 144px;
+    min-width: 362px;
+    background: #010101;
+}
+
+.card__header-two {
+    background: #010101;
+}
+
+.card__header-three{
+    background: #150A18;
+}
+
+.card__name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.card__info {
+    font-size: 16px;
+    color: #666666;
+    padding: 33px 22px;
+}
+
+.card__time {
+    margin-right: 54px;
+}
+
+.card__main{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #303030;
+    padding: 2px 22px;
+    margin-bottom: 24px;
+}
+
+.card__btn-wrapper{
+    margin: 5%
+    
+}
+
+
+.past__title {
+    font-size: 36px;
+    font-style: bold;
+    margin-bottom: 46px;
+}
+
+.past__events {
+    min-height: 400px;
+    width: 530px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative
+    overflow: hidden;
+    margin-bottom: 58px;
+}
+
+.past__events-first-card {
+    background: url("./img/ng-quiz.jpg")
+}
+
+.past__events-last-card {
+    background: url("./img/spring-game.jpg");
+}
+
+.past__container{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 37px 46px;
+    min-height: 130px;
+    
+}
+
+.paginator {
+    text-align: center;
+}
+ .paginator__text,.paginator__list {
+     display: inline-block;
+     vertical-align: middle;
+     margin-bottom: 132px;
+ }
+
+.paginator__text {
+    margin-right: 25px;
+}
+
+ .paginator__item {
+     display: inline-block;
+     vertical-align: middle;
+     border-radius: 50%;
+ }
+
+ .paginator__item--active {
+     background: #8F00FF;;
+ }
+
+ .paginator__link{
+     display: block;
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     text-decoration: none;
+     font-weight: bold;
+     line-height: 32px;
+ }
+
+ .about:before {
+     content: "";
+     display: inline-block;
+     vertical-align: top;
+     width: 488px;
+     height: 502px;
+     background:  url("./img/about.jpg") center center / cover no-repeat;
+ }
+
+ .about__structure {
+    display: inline-block;
+    vertical-align: top;
+     background: linear-gradient(#8F00FF,#148CFF);
+     padding: 70px 81px;
+     width: 785px;
+     min-height: 455px;
+     margin-left: -137px;
+     margin-top: 108px;
+     margin-bottom: 63px;
+ }
+
+ .about__header {
+     font-size: 36px;
+     font-style: bold;
+     margin-bottom: 37px;
+ }
+
+ .about__detail {
+    font-size: 16px;
+    margin-bottom: 61px;
+ }
+
+.bottom__content {
+    border-top: 1px solid #FFFFFF;
+}
+
+ .footer {
+    min-height: 146px;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 52px;
+    bottom: 67px;
+}
+
+.menu {
+    position: absolute;
+    bottom: 67px;
+    top: 52px;
+    left: 243px;
+}
+
+.menu:last-child {
+    margin-right:0;
+}
+
+.menu__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+.menu__link{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.feedback{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    top: 49x;
+    bottom: 61px;
+    left: 702px;
+}
+
+.feedback__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+.feedback__item:last-child {
+    margin-right: 0;
+}
+
+ .feedback__link{
+     display: block;
+     text-decoration: none;
+     width: 36px;
+     height: 36px;
+     background: center center no-repeat;
+ }
+
+.contacts{
+        position: absolute;
+        top: 42px;
+        bottom: 84px;
+        right: 0;
+        font-style: normal;
+        text-align: right;
+}
