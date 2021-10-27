@@ -39,7 +39,7 @@ body {
     top: 1950px;
 
 
-    background: url("/img/back-2.jpg") center bottom no-repeat;
+    background: url("./img/back-2.jpg") center bottom no-repeat;
     background-size: cover;
     mix-blend-mode: luminosity;  
     opacity: 10%;
